@@ -20,6 +20,19 @@
         android:layout_height="wrap_content"
         android:text="위에 적힌 말을 토스트로"/>
 
+    <Button
+        android:id="@+id/copyMessageBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="위에 적힌 메시지를 텍스트뷰에 반영"/>
+
+    <TextView
+        android:id="@+id/messageTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="위에 입력한 메시지가 여기로 들어옵니다."/>
+
 
 
 </LinearLayout>
