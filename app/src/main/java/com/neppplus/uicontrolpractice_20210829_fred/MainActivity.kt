@@ -23,5 +23,17 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        // 카피메세지 버튼이 눌리면 > 메세지가 적힌 내용을 받아와서 >  텍스트뷰 문구로 반영
+        copyMessageBtn.setOnClickListener {
+
+            //입력한 내용 받아오기.(변수에 저장)
+            val inputMessage = messageEdt.text.toString()
+
+            //메세지 텍스트 뷰의 text 속성에 내용을 대입 set을한다.
+
+            messageTxt.text = inputMessage
+
+        }
+
     }
 }
